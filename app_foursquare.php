@@ -24,9 +24,9 @@ class App {
 	// connects to MonsterHost database via PDO
 	{
 		$config = array(
-			'username' => 'assassi5_fs',
-			'password' => 'root101',
-			'database' => 'assassi5_foursquare'
+			'username' => 'root',
+			'password' => 'battosai',
+			'database' => 'localhost'
 		);
 
 		try {
@@ -52,6 +52,7 @@ class App {
 	{
 		try {
 			$query = $this->connection->query("TRUNCATE TABLE $tableName");
+			return true;
 		} catch(Exception $e) {
 			return 'Error' . $e->getMessage();
 		}
