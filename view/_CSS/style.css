@@ -1,0 +1,101 @@
+/*=general*/
+body {
+	background: #f0f1f2;
+}
+.grid-container {
+	background: #ffffff;
+	padding: 0;
+	color: #4d4d4d;
+	border-radius: 3px 3px 0px 0px;
+	box-shadow: 0 0 4px #4d4d4d;
+    font-family: 'BebasRegular';
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.grid-container a {
+	-webkit-transition: color 0.5s;
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+.grid-container a:hover {
+	color: #e1ebbe;
+	cursor: pointer;
+}
+
+.grid-100:first-child {
+	background: url(../_IMG/banner.png) repeat-x;
+	height: 52px;
+}
+
+.grid-100>p {
+	padding-top: 7px;
+	text-align: center;
+}
+
+.grid-30 {
+	margin-bottom: 50px;
+	margin-right: 35px;
+}
+
+header {
+	text-align: center;
+	height: 60px;
+	margin-bottom: 40px;
+}
+
+header p {
+	border-bottom: 1px solid #f0f1f2;
+	margin-right: 350px;
+	margin-left: 350px;
+	font-size: 30px;
+}
+
+footer {
+	opacity: 0.8;
+	background: url(../_IMG/sneaker_mesh.png) repeat-x;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Lobster13Regular';
+}
+
+.status {
+	text-align: center;
+	word-spacing: 5px;
+}
+
+.content {
+	margin-right: 40px;
+	margin-left: 30px;
+} 
+
+
+/*=fonts*/
+
+@font-face {
+    font-family: 'Lobster13Regular';
+    src: url('../_FONTS/Lobster_1.3-webfont.eot');
+    src: url('../_FONTS/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_FONTS/Lobster_1.3-webfont.woff') format('woff'),
+         url('../_FONTS/Lobster_1.3-webfont.ttf') format('truetype'),
+         url('../_FONTS/Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../_FONTS/BEBAS___-webfont.eot');
+    src: url('../_FONTS/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_FONTS/BEBAS___-webfont.woff') format('woff'),
+         url('../_FONTS/BEBAS___-webfont.ttf') format('truetype'),
+         url('../_FONTS/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
