@@ -29,7 +29,7 @@
 			</div>
 		<?php  endforeach; ?>
 
-		<footer class="grid-100"><p>Jp</p></footer>
+		<footer class="grid-100"><p>Justin Page</p></footer>
 
 	</div>
 </body>
