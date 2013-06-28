@@ -4,6 +4,7 @@ tempfile.txt
 .DS_STORE
 *.zip
 *.gz
+hello.html
 log/*.log
 log/*.log [0-9]
 assets/photoshop/
