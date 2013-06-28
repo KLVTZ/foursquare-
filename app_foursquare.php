@@ -26,7 +26,7 @@ class App {
 		$config = array(
 			'username' => 'root',
 			'password' => 'battosai',
-			'database' => 'localhost'
+			'database' => 'foursquare'
 		);
 
 		try {
